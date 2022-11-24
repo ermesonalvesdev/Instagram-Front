@@ -18,28 +18,28 @@ export default class Footer extends Component {
                         <TouchableOpacity>
                             <Image
                                  style={{width: 40, height: 40, marginLeft: 30}}
-                                source={require('/Users/ermesonalves/Documents/instagram/src/img/HomeIcon.png')}
+                                source={require('../../img/HomeIcon.png')}
                             />
                         </TouchableOpacity>
 
                         <TouchableOpacity>
                             <Image
                                  style={{width: 40, height: 40, marginLeft: 30}}
-                                source={require('/Users/ermesonalves/Documents/instagram/src/img/SearchIcon.png')}
+                                source={require('../../img/SearchIcon.png')}
                             />
                         </TouchableOpacity>
 
                         <TouchableOpacity>
                             <Image
                                  style={{width: 40, height: 40, marginLeft: 30}}
-                                source={require('/Users/ermesonalves/Documents/instagram/src/img/PlusIcon.png')}
+                                source={require('../../img/PlusIcon.png')}
                             />
                         </TouchableOpacity>
 
                         <TouchableOpacity>
                             <Image
                                 style={{width: 50, height: 50, marginLeft: 30}}
-                                source={require('/Users/ermesonalves/Documents/instagram/src/img/RellsIcon.png')}
+                                source={require('../../img/RellsIcon.png')}
                             />
                         </TouchableOpacity>
 
@@ -75,7 +75,6 @@ const styles = StyleSheet.create({
     },
     footerContainer: {
         flexDirection: 'row',
-        justifyContent: 'space-round',
         alignItems: 'center',
         padding: 10
 

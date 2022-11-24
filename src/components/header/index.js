@@ -15,7 +15,7 @@ export default class Header extends Component {
                 <View style={styles.header}>
                     <TouchableOpacity>
                         <Image
-                            source={require('/Users/ermesonalves/Documents/instagram/src/img/logo.png')}
+                            source={require('../../img/logo.png')}
                         />
                     </TouchableOpacity>
 
@@ -23,7 +23,7 @@ export default class Header extends Component {
                     <View style={styles.iconView}>
                         <TouchableOpacity>
                             <Image
-                                source={require('/Users/ermesonalves/Documents/instagram/src/img/ShareIcon.png')}
+                                source={require('../../img/ShareIcon.png')}
                                 style={{ width: 35, height: 35 }}
                             />
                         </TouchableOpacity>
